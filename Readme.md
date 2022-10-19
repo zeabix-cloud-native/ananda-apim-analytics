@@ -2,7 +2,8 @@
 Use the Azure portal to review analytics data at a glance for your API Management instance.
 1. In the [Azure portal](https://portal.azure.com/), navigate to your API Management instance.
 2. n the left-hand menu, under Monitoring, select Analytics.
-![Analytics](./assets/monitoring-menu-analytics.png)
+ 
+* ![Analytics](./assets/monitoring-menu-analytics.png)
 
 3. Select a time range for data, or enter a custom time range.
 4. Select a report category for analytics data, such as Timeline, Geography, and so on.
