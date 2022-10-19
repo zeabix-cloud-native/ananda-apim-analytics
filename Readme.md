@@ -24,27 +24,16 @@ Create a connection between Application Insights and API Management
 ![APIM Application Insight](./assets/apim-app-insignt-logger-2.png)
 
 ## Enable Application Insights logging for your API
-1. Navigate to your Azure API Management service instance in the Azure portal.
+### How to log request/response payload in Application Insights for APIs frontend by API Management
+1. Go to [Azure Portal](https://portal.azure.com/) and navigate to the API Management resource
 2. Select APIs from the menu on the left.
 3. Click on your API, in this case Demo Conference API. If configured, select a version.
 4. Go to the Settings tab from the top bar.
 5. Scroll down to the Diagnostics Logs section.
-![APIM Application Insight](./assets/apim-app-insights-api-3.png)
-6. Check the Enable box.
-7. Select your attached logger in the Destination dropdown.
-8. Input 100 as Sampling (%) and select the Always log errors checkbox.
-9. Leave the rest of the settings as is.
-10. Select Save.
-
-## How to log request/response payload in Application Insights for APIs frontend by API Management
-1. Go to [Azure Portal](https://portal.azure.com/) and navigate to the API Management resource
-2. Under Settings >> select API
-3. Select the sample API from the right pane
-4. Click the `Settings` tab
-5. Scroll down to Diagnostics Logs
 6. Under Application Insights tab, tick the checkbox `Enable`
+![APIM Application Insight](./assets/apim-app-insights-api-3.png)
 7. Select the AppInsights resource under `Destination` dropdown
-8. Default sampling 100%
+8. Input 100 as Sampling (%) and select the Always log errors checkbox.
 9. Verbosity `Information`
 10. Correlation protocol `W3C`
 11. Under Additional settings click `Advanced Options`
