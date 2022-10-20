@@ -9,6 +9,26 @@ Use the Azure portal to review analytics data at a glance for your API Managemen
 4. Select a report category for analytics data, such as Timeline, Geography, and so on.
 5. Optionally, filter the report by one or more additional categories.
 
+<br/>
+
+**Example 1: API Statistic**
+
+![API Statistic](./assets/ananda-apim-analytic-stats-01.png)
+
+<br/>
+
+**Example 2: Operation Statistics**
+
+![Operation Statistics](./assets/ananda-apim-analytic-stats-02.png)
+
+</br>
+
+**Example 3: Per Request Details**
+
+![Requests](./assets/ananda-apim-analytic-stats-03.png)
+
+<br/>
+
 ## Application Insight
 Create a connection between Application Insights and API Management
 1. Navigate to your Azure API Management service instance in the Azure portal.
